@@ -23,6 +23,7 @@ public class AndroidDeveloper : Employee
     }
 }
 // main class responsible for determining which sub class method(i.e. salary) to get object subclasses based on input(requirement)  
+//factory class contains such kind of method which returns the object of the class based on requirement
 public class EmployeeFactory{
     public static Employee getEmployee(string empType){
         if (empType == "AndroidDeveloper"){
